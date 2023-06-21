@@ -360,8 +360,7 @@ const tick = () =>
     const ghost3Angle = -elapsedTime * 0.18
     ghost3.position.x = Math.cos(ghost3Angle) * (8 + Math.cos(elapsedTime))
     ghost3.position.z =Math.sin(ghost3Angle) * (8 + Math.cos(elapsedTime))
-    ghost3.position.y = Math.sin(elapsedTime * 5) + Math.sin(elapsedTime * 2)
-
+    ghost3.position.y = Math.sin(elapsedTime* 2)
     // Update controls
     controls.update()
 
